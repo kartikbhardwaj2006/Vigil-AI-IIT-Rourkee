@@ -1,0 +1,81 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+demo-videos/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+venv/
+.venv/
+.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+
+# Database & Models
+backend/vigil.db
+backend/yolov8n.pt
+*.sqlite3
+*.db
+
+# Frontend Build
+frontend/dist/
+frontend/node_modules/
+
+# Demo Videos (optional: if you want to keep large files out of Git)
+# demo-videos/*.mp4
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Batch/Script files
+*.bat
+*.cmd
+*.sh
+
+# ML Models (large files)
+*.pt
+*.onnx
+*.weights
+
+# IDE/Editor specific
+*.swp
+*.swo
+*~
